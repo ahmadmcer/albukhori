@@ -1,0 +1,281 @@
+body {
+	background-color: #f9f9f9;
+	background-image: url('assets/images/islamic pattern white background.png');
+	background-position: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: #000;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #00e64d;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: disc;
+	padding-left: 1.5rem;
+}
+
+ol {
+	padding-left: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: bold;
+}
+
+footer {
+	background-color: #222;
+	font-size: 0.8rem;
+}
+
+.no-bold {
+	font-weight: 400;
+}
+
+.semi-bold {
+	font-weight: 600;
+}
+
+.navbar {
+	background-color:	#00b33c;
+	background-image: url("assets/images/islamic pattern green background.png");
+	background-position: center;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	border-bottom: 5px solid #00b33c;
+	color: white;
+	font-size: 0.85rem;
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	border-bottom: 5px solid #00e64d;
+	color: #00e64d;
+}
+
+.facility-icon {
+	font-size: 6rem;
+}
+
+.card {
+	background-color: #fff;
+	border: 0;
+	border-radius: 0;
+	box-shadow: 3px 3px 9px rgba(0,0,0,.125);
+	transition: 1s;
+}
+
+.card:hover {
+	border: 0;
+	border-radius: 0;
+	box-shadow: 3px 3px 12px rgba(0,0,0,.25);
+}
+
+.card .card-header {
+	background-color: #00b33c;
+	border-radius: 0;
+}
+
+.card .card-title {
+	color: #fff;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin: 0;
+}
+
+.upcoming-event .upcoming-event-date {
+	background-color: #00b33c;
+	border-radius: 0.5rem;
+	color: #fff;
+	padding: 5px 0px 10px 0px;
+	text-align: center;
+}
+
+.upcoming-event .upcoming-event-title {
+	padding-top: 5px;
+}
+
+.upcoming-event .upcoming-event-date h1, .upcoming-event .upcoming-event-date h6 {
+	margin-bottom: 0;
+}
+
+.upcoming-event .upcoming-event-content .col-8 {
+	padding-left: 0; 
+}
+
+.announcements .card .card-title {
+	text-align: center;
+}
+
+.notice .notice-date {
+	color:  #00b33c;
+	font-size: 0.75rem;
+	font-weight: bold;
+	margin: 0;
+}
+
+.notice .notice-content {
+	margin-bottom: 12px;
+}
+
+.latest-news .card .card-img-top {
+	border-radius: 0;
+}
+
+.latest-news .news-release {
+	color: #959595;
+	margin-bottom: 0.5rem;
+	font-size: 0.9rem;
+}
+
+.latest-news .time-release {
+	margin-right: 1rem;
+}
+
+.jumbotron {
+	color: #fff;
+	background-image: url("assets/images/albukhori front.jpg");
+	background-position: 50% 86%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 0;
+}
+
+.jumbotron p {
+	font-size: 0.9rem;
+	margin: 0;
+}
+
+.jumbotron .jumbotron-btn {
+	text-align: center;
+}
+
+.jumbotron .btn-albukhori {
+	color: #00b33c;
+	background-color: #fff;
+	font-size: 0.9rem;
+	padding: 0.8rem 2.5rem;
+	transition: 0.5s;
+}
+
+.jumbotron .btn-albukhori:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: : #000;
+}
+
+@media (min-width: 576px) {
+	.jumbotron .jumbotron-btn {
+		text-align: right;
+	}
+}
+/*
+.about-albukhori {
+	background-color: #006622;
+	background-image: url("assets/images/islamic pattern.png");
+	background-size: 20%;
+}
+*/
+.about-albukhori img {
+	width: 256px;
+	margin: 2rem 0rem;
+}
+
+.btn-albukhori {
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #00b33c;
+  border-radius: 2px;
+  padding: 10px 20px;
+}
+
+.btn-albukhori:hover {
+  color: #fff;
+  background-color: #00802b;
+  border-color: #006622;
+}
+
+.btn-albukhori:focus, .btn-albukhori.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-albukhori.disabled, .btn-albukhori:disabled {
+  color: #fff;
+  background-color: #00802b;
+}
+
+.btn-albukhori:not(:disabled):not(.disabled):active, .btn-albukhori:not(:disabled):not(.disabled).active,
+.show > .btn-albukhori.dropdown-toggle {
+  color: #fff;
+  background-color: #00802b;
+}
+
+.btn-albukhori:not(:disabled):not(.disabled):active:focus, .btn-albukhori:not(:disabled):not(.disabled).active:focus,
+.show > .btn-albukhori.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.inner {
+	background-color: #222;
+}
+
+.inner p {
+	color: #909090;
+}
+
+.inner .location .location-icon {
+	font-size: 1.2rem;
+}
+
+.inner .location p {
+	margin-bottom: 0;
+}
+
+.inner .social-media .social-media-icon {
+	font-size: 2rem;
+}
+
+.inner .social-media .social-media-icon a {
+	color: #909090;
+}
+
+.inner .social-media .social-media-icon a:hover {
+	color: #fff;
+}
+
+.copyright {
+	background-color: #171717;
+	color: #868e96;
+	text-align: center;
+}
+
+.copyright-left {
+	margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+	.copyright-left {
+		text-align: left;
+		margin-bottom: 0;
+	}
+
+	.copyright-right {
+		text-align: right;
+	}
+}
+
+.copyright p {
+	margin: 0;
+}
+
+@media (max-width: 576px) {
+
+}
